@@ -1,0 +1,7 @@
+
+setTimeout( function(){
+  window.location="https://www.google.com/search?rlz=1C1CHBF_esCO914CO914&sxsrf=ALeKk00z2gtSQA8skbV0dAyFb5p8nLelxQ%3A1601396168409&ei=yF1zX4q-GMnx5gLjyK6YCw&q=river+plate&oq=river+&gs_lcp=CgZwc3ktYWIQAxgAMgcILhAnEJMCMggILhCxAxCDATIHCAAQFBCHAjIHCAAQsQMQQzIICAAQsQMQgwEyAggAMggIABCxAxCDATICCC4yAggAMgIIADoECCMQJzoECC4QJzoECC4QQzoECAAQQzoFCAAQsQM6BwgjEOoCECc6BwguEOoCECc6BQguELEDOgcILhCxAxBDUMh_WLaRAWCenQFoAXAAeACAAbUBiAGrCZIBAzAuOJgBAKABAaoBB2d3cy13aXqwAQrAAQE&sclient=psy-ab";
+},5000);
+
+
+

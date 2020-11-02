@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clase Select</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h1>Ejercicio 2</h1>
+    <p>Generar un presupuesto de un equipo de computación a partir de tres objetos de tipo SELECT que nos permiten seleccionar: </p>
+    <p> Procesador (Intel I3 - $400, Intel I5 $600, Intel I7 $800). Monitor (Samsung 20' - $250, Samsung 22' - $350, Samsung 26' - $550)</p>
+    <p> Disco Duro(500 Gb - $300, 1 Tb - $440, 3 Tb - $500) Para cada característica indicamos string a mostrar Ej. Intel I3) y el valor asociado a dicho string (Ej. 400). Al presionar un botón "Calcular" mostrar el presupuesto en un objeto de tipo TEXT.</p>
+
+
+    <form action="#" method="post">
+        <select name="procesador" id="procesador">
+         <option value="400">Intel I3</option>
+         <option value="600">Intel I5</option>
+         <option value="700">Intel I7</option>
+        </select>
+        <select name="monitor" id="monitor">
+         <option value="250">Samsung 20</option>
+         <option value="350">Samsung 22</option>
+         <option value="550">Samsung 26</option>
+    
+        </select>
+        <select name="Disco Duro" id="Disco">
+         <option value="300">500 GB</option>
+         <option value="440">1 TB </option>
+         <option value="500">3 TB</option>
+        </select>
+        <button class="calcular btn" id="calcular">calcular</button>
+    </form>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
